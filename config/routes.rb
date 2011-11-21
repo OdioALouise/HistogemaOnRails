@@ -1,10 +1,16 @@
 HistogemaOnRails::Application.routes.draw do
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7fb75e7103d9e49631feeafd4bfdbccbd3958860
   get "pages/home"
 
   get "pages/contact"
 
+<<<<<<< HEAD
+>>>>>>> 7fb75e7103d9e49631feeafd4bfdbccbd3958860
+=======
 >>>>>>> 7fb75e7103d9e49631feeafd4bfdbccbd3958860
   # The priority is based upon order of creation:
   # first created -> highest priority.

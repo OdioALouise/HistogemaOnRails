@@ -1,7 +1,11 @@
 source 'http://rubygems.org'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 gem 'rails', '3.0.9'
+=======
+gem 'rails', '3.0.11'
+>>>>>>> 7fb75e7103d9e49631feeafd4bfdbccbd3958860
 =======
 gem 'rails', '3.0.11'
 >>>>>>> 7fb75e7103d9e49631feeafd4bfdbccbd3958860
@@ -10,8 +14,11 @@ gem 'rails', '3.0.11'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 gem 'sqlite3'
 =======
+=======
+>>>>>>> 7fb75e7103d9e49631feeafd4bfdbccbd3958860
 gem 'sqlite3', '1.3.3'
 
 group :development do
@@ -22,6 +29,9 @@ group :test do
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
 end
+<<<<<<< HEAD
+>>>>>>> 7fb75e7103d9e49631feeafd4bfdbccbd3958860
+=======
 >>>>>>> 7fb75e7103d9e49631feeafd4bfdbccbd3958860
 
 # Use unicorn as the web server
