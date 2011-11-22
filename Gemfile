@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.11'
@@ -43,6 +44,11 @@ end
 =======
 source 'http://rubygems.org'
 
+=======
+source 'http://rubygems.org'
+
+
+>>>>>>> rspec
 gem 'rails', '3.0.11'
 
 # Bundle edge Rails instead:
