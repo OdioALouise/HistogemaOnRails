@@ -14,5 +14,28 @@
 		}
   
 	%>
+	
+	<% form_tag request.path, :method => 'get' do %>
+		<% content_tag :label do %>
+			Termino de b&uacute;squeda:
+			<%= text_field_tag :search, params[:search] %>
+		<% end %>
+	<% end %>
+	
+	<%
+		@ins.each{ |it|
+	
+	%>
+		<h4> <%= it.nombre %></h4>
+		<hr>
+		<br>
+	<%
+		}
+  
+	%>
+	
+	<%= will_paginate @ins %>
+
+
   
 </p>
